@@ -3,10 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+	constructor(props) {
+		super(props)
+		this.setState({
+
+		})
+	}
   render() {
     return (
-      <textarea id="editor">
+    	<div>
+      <textarea id="editor" rows="4" cols="50">
       </textarea>
+      <div id = "preview">
+
+      </div>
+      </div>
     );
   }
 }
