@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import marked from 'marked';
 
 class App extends Component {
 	constructor(props) {
@@ -15,6 +16,8 @@ class App extends Component {
       <textarea id="editor" rows="4" cols="50">
       </textarea>
       <div id = "preview">
+       
+
 
       </div>
       </div>
