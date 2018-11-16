@@ -21,7 +21,7 @@ class App extends Component {
         </textarea>
           <div id = "preview">
             <div dangerouslySetInnerHTML = {this.getMarkdowntext()} />
-      
+
           </div>
       </div>
     );
@@ -30,4 +30,4 @@ class App extends Component {
 
 export default App;
 
-//
+//////
