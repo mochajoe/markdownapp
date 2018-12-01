@@ -30,4 +30,4 @@ class App extends Component {
 
 export default App;
 
-//////working on making smaller components
+//////working on making smaller componentsdd
