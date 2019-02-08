@@ -7,6 +7,9 @@ import marked from 'marked';
 class App extends Component {
 	constructor(props) {
 		super(props)
+    this.state = {
+      commentBox :""
+    }
 	}
 
   getMarkdowntext() {
